@@ -13,4 +13,11 @@
    # print var4 as the highest number
 
 # if not:
-   # print var5 as the highest number 
+   # print var5 as the highest number
+
+
+first = int(input("Enter 1st number: "))
+second = int(input("Enter 2nd number: "))
+third = int(input("Enter 3rd number: "))
+fourth = int(input("Enter 4th number: "))
+fifth = int(input("Enter 5th number: "))
