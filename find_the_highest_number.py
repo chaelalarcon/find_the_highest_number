@@ -27,3 +27,22 @@ second = int(input("Enter 2nd number: "))
 third = int(input("Enter 3rd number: "))
 fourth = int(input("Enter 4th number: "))
 fifth = int(input("Enter 5th number: "))
+
+def find_the_highest_number(first,second,third,fourth,fifth):
+    if first >= second and first >= third and first >= fourth and first >= fifth:
+        print("First number is the highest number")
+        return first
+    elif second >= first and second >= third and second >= fourth and second >= fifth:
+        print("Second number is the highest number")
+        return second 
+    elif third >= first and third >= second and third >= fourth and third >= fifth:
+        print("Third number is the highest number")
+        return third
+    elif fourth >= first and fourth >= second and fourth >= third and fourth >= fifth:
+        print("Fourth number is the highest number")
+        return fourth
+
+    else:
+        print("Fifth number is the highest number")
+
+find_the_highest_number(first,second,third,fourth,fifth)
